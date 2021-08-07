@@ -72,7 +72,9 @@
         >
         > ->   git status(查看状态，可不操作)   ->git commit -m "注释"    ->  连接远程仓库 
         >
-        > ->   git remote add origin (address of repository)    ->   git push -u origin master
+        > ->   git remote add origin (address of repository)    ->   git push -u origin master(
+
+              如果有创建README.md  则 git pull --rebase origin  -> git push origin master)
 ##### 分支操作
 
   + ![image-20210711152251455](Git.assets/image-20210711152251455.png)
